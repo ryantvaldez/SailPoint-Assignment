@@ -50,11 +50,11 @@ public class Listener {
 			this.message = m;
 		}
 
-		/*	@Method
-		 *  Override the run() method of the Runnable interface. This function is run when
-		 *  a new Collator Thread is started
+		/* @Method
+		 * Override the run() method of the Runnable interface. This function is run when
+		 * a new Collator Thread is started
 		 *  
-		 *  Returns: void
+		 * Returns: void
 		 */
 		@Override
 		public void run() {
