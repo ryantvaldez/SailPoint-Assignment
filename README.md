@@ -4,12 +4,12 @@ My implementation of a collating Listener in Java.
 Java 17.0.1
 
 Author: Ryan Valdez
+
 Date: Nov 25, 2021
 
-Description:
 For the purpose of my implementation, I designed the Listener class to accept input from a file or from the console. If using a file, please save said file to the 'SailPoint-Assignment/CollatingListener/src' directory and pass the file name as a command line argument when running the program. Note that, in either case, input must be formatted such that it looks like:
 
-<id> <message body>
+\<id\> \<message body\>
 
 where <id> is an integer value and <message body> is anything after the first whitespace and before the line terminator. However, the Listener is designed to catch invalid input.
 
